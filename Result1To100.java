@@ -4,6 +4,7 @@ public class Result1To100 {
         int i = 1;
 
         while (i <= 100) {
+            System.out.println(+i);
             sum += i;
             i++;
         }
